@@ -1,0 +1,3 @@
+A Pen created at CodePen.io. You can find this one at http://codepen.io/marcc24k/pen/MeWyNz.
+
+ Welcome to Flexbox MPC.   I've always wanted to make a drum machine/ rhythm maker, and I have to say, it came out a lot better than I imagined.  I figured flexbox would work great for the pads, and so far it has.  I know I probably didn't use the most practical way to write my JS  but I'm constantly learning DRY(dont repeat yourself) techniques every day.  As of right now , just the pads work. This was just a stepping stone  to the fully functional version later. Thanks for checking it out!

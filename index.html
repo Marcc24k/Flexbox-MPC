@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+     
+      <link rel="stylesheet" href="css/style.css">
+    <title>Flexbox MPC</title>
+
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--I could get real fancy with this project but im going to leave it as is. This was like a book you cannot stop reading, couldn't wait to be finished to try my own beat machine. *sigh* have to move on. For now! -->
+
+
+<link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+
+
+<!--  MAIN CONTAINER FOR MPC -->
+<div class='main-container'>
+
+  <div class="flex-container">
+    <h1 class='title'>Flex MPC</h1>
+
+    <div class='container'>
+      <!--  Tap tempo  -->
+      <button id="btn"><div class="tap"><p id='green'>Tap</p></div></button>
+
+      <!-- Full level     -->
+      <div id='outer_shadow'>
+        <button id="btn-1">
+        <div class="full-level">
+          <p id='green-two'>Full Level</p>
+        </div>
+      </button>
+      </div>
+    </div>
+
+    <!--  16 LEVEL BUTTON  -->
+    <div class='container-2'>
+      <div id='outer-shadow-2'>
+        <button id="btn-2">
+        <div class="sixteen-level">
+          <p id='orange'>16 Level</p>
+        </div>
+      </button>
+      </div>
+    </div>
+
+    <!-- ERASE BUTTON  -->
+    <div class='container-4'>
+      <div id='outer-shadow-4'>
+        <button id="btn-4">
+        <div class="erase">
+          <p id='red' >ERASE</p>
+        </div>
+      </button>
+      </div>
+    </div>
+
+
+    <!--  NOTE REPEAT BUTTON  -->
+    <div class='container-3'>
+      <div id='outer-shadow-3'>
+        <button id="btn-3">
+        <div class="note-repeat">
+          <p id='blue' >NOTE REPEAT</p>
+        </div>
+      </button>
+      </div>
+    </div>
+
+    <!-- BOTTOM BUTTONS   -->
+    <div id='container'>
+
+      <!--  RECORD BUTTON  -->
+      <div class='container-5'>
+        <div id='outer-shadow-5'>
+          <button id="btn-5">
+        <div class="RECORD">
+          <p>• REC</p>
+        </div>
+      </button>
+        </div>
+      </div>
+
+      <!--OVER DUB PROPERTIES    -->
+      <div class='container-6'>
+        <div id='outer-shadow-6'>
+          <button id="btn-6">
+        <div class="dub">
+          <p>• O-DUB</p>
+        </div>
+      </button>
+        </div>
+      </div>
+
+      <!--PLAY BUTTON PROPERTIES    -->
+      <div class='container-7'>
+        <div id='outer-shadow-7'>
+          <button id="btn-7">
+        <div class="play">
+          <p>• PLAY</p>
+        </div>
+      </button>
+        </div>
+      </div>
+
+      <!--STOP BUTTON    -->
+
+      <div class='container-8'>
+        <div id='outer-shadow-8'>
+          <button id="btn-8">
+        <div class="stop">
+          <p>• STOP</p>
+        </div>
+      </button>
+        </div>
+      </div>
+    </div>
+    <!--ID CONTAINER BOX-->
+ 
+    <!--   BUTTON BUTT END -->
+
+    <audio loop id="audio1" src=https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/NEw-looperman-l-1074761-0074275-jaceziii-j-sine-square-90bpm.wav></audio>
+
+    <audio loop id="audio2" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/Newlooperman-l-1273564-0096409-franko75-90-bpm-synth-any-genre.wav"></audio>
+
+    <audio loop id="audio3" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-0817298-0075580-enzotic-8-bit-style-loop.wav"></audio>
+
+    <audio loop id="audio4" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-1172494-0081589-yappy-organ-flute-90bpm.wav"></audio>
+
+    <audio loop id="audio5" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-1172494-0081172-yappy-piano-90bpm.wav"></audio>
+
+    <audio loop id="audio6" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-0911223-0093588-silencekills-tin-man-horns-90-dm.wav"></audio>
+
+    <audio loop id="audio7" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-0911223-0096296-silencekills-space-lift-drums-90.wav"></audio>
+
+    <audio loop id="audio8" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-1007049-0096241-bakobone-90bpm-drums.wav"></audio>
+
+    <audio loop id="audio9" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/343880/looperman-l-0116269-0046730-dextdee-sweetness.wav"></audio>
+    <audio loop id=""></audio>
+
+    <!--PAD BUTTONS    -->
+    <div class='box'>
+      <button id='p1'>  <div class="flex-item" onClick="play()">Pad 1</div></button>
+      <button id='p2'>  <div class="flex-item" onClick="playA()">Pad 2</div></button>
+      <button id='p3'>  <div class="flex-item" onClick="playB()">Pad 3</div></button>
+      <button id='p4'>  <div class="flex-item" onClick="playC()">Pad 4</div></button>
+      <button id='p5'>  <div class="flex-item" onClick="playD()">Pad 5</div></button>
+      <button id='p6'>  <div class="flex-item" onClick="playE()">Pad 6</div></button>
+      <button id='p7'>  <div class="flex-item" onClick="playF()">Pad 7</div></button>
+      <button id='p8'>  <div class="flex-item" onClick="playG()">Pad 8</div></button>
+      <button id='p9'>  <div class="flex-item" onClick="playH()">Pad 9</div></button>
+    </div>
+  </div>
+</div>
+<!--MAIN CONTAINER END -->
+
+<footer><h1>
+  <ul>
+    <li>
+      Thanks for checking out my flexbox MPC. I've always wanted to design my own drum machine. So, here it is, my first MPC. What a fun way to work with flexbox!
+      <li>
+      <p>Check out my first Flex MPC track here! <a  class='link' href=" https://soundcloud.com/know-me-as-i-am" target="_blank">soundcloud.com/know-me-as-i-am </p>
+    </li>
+    </li>
+  </ul>
+  
+  </h1><footer>
+    
+        <script src="js/script.js"></script>
+
+    
+    
+    
+  </body>
+</html>
